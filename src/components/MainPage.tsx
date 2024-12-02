@@ -12,7 +12,7 @@ import MobileEducation from "./MobileComponents/Education";
 import MobileExperience from "./MobileComponents/Experience";
 import MobileSkills from "./MobileComponents/Skills";
 import MobileProjects from "./MobileComponents/Projects";
-import MobileContact from "./MobileComponents/contact";
+import MobileContact from "./MobileComponents/Contact";
 
 
 const MainPage = () => {
