@@ -39,7 +39,7 @@ const MobileContact = () => {
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
             PHONE
           </h2>
-          <p className="leading-relaxed">030512501545</p>
+          <p className="leading-relaxed">03051250154</p>
         </div>
       </div>
     </div>
