@@ -3,12 +3,13 @@ import Typewriter from 'typewriter-effect';
 import { FaFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
 
 
 export function Sidebar() {
   return (
     <div className="flex flex-col  justify-center  items-center p-3">
-    <img src= "/banner.bg.jpg.jpg" alt="profile-picture" height={200} width={200 } className="rounded-md"/>
+    <Image src= "/banner.bg.jpg.jpg" alt="profile-picture" height={200} width={200 } className="rounded-md"/>
 
     <div  className="mt-2">
      <h1 className="text-2xl font-bold tracking-tight uppercase">Tayyaba Asad</h1>

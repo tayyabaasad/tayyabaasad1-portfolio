@@ -5,6 +5,7 @@ import { FaFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import Link from "next/link";
 import { Button } from '../ui/button';
+import Image from 'next/image';
 
 
 const MobileCard = () => {
@@ -12,7 +13,7 @@ const MobileCard = () => {
     <div data-aos="zoom-in" className='h-[90vh] bg-blue-100 flex flex-col items-center justify-center'>
         <div className="card glass w-80 p-5 flex flex-col justify-center items-center">
  
-        <img src= "/banner.bg.jpg.jpg" alt="profile-picture" height={200} width={200 } className="rounded-md mx-auto"/>
+        <Image src= "/banner.bg.jpg.jpg" alt="profile-picture" height={200} width={200 } className="rounded-md mx-auto"/>
 
  
   <div className="card-body">
